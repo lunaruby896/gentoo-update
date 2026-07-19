@@ -1,7 +1,9 @@
 como instalar ?
 
 use esse comando: chmod +x ~/gentoo-update-main/script-install
+
 ou
+
 chmod +x ~/Downloads/gentoo-update-beta/script-install
 
 Solução de Erros: Chaves GnuPG e Permissões no Gentoo (Pacotes Binários)
