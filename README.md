@@ -1,11 +1,19 @@
 como instalar ?
 
-use esse comando: chmod +x ~/gentoo-update-main/script-install
+use esse comando: chmod +x ~/gentoo-update-main/script
 
 ou
 
-chmod +x ~/Downloads/gentoo-update-beta/script-install
+chmod +x ~/Downloads/gentoo-update-main/script
 
+você tem que executar o script de instalação !
+
+~/gentoo-update-main/script-install
+
+ou 
+
+~/Downloads/gentoo-update-main/script-install
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Solução de Erros: Chaves GnuPG e Permissões no Gentoo (Pacotes Binários)
 
 se caso ocorreu quando você colocou o comando: "sudo gentoo-update", ocorreu esses erros que estão em baixo
