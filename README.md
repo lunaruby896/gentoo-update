@@ -13,6 +13,7 @@ você tem que executar o script de instalação !
 ou 
 
 ~/Downloads/gentoo-update-main/script-install
+
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Solução de Erros: Chaves GnuPG e Permissões no Gentoo (Pacotes Binários)
 
