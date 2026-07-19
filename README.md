@@ -1,10 +1,10 @@
 como instalar ?
 
-use esse comando: chmod +x ~/gentoo-update-main/script
+use esse comando: chmod +x ~/gentoo-update-main/script-install
 
 ou
 
-chmod +x ~/Downloads/gentoo-update-main/script
+chmod +x ~/Downloads/gentoo-update-main/script-install
 
 você tem que executar o script de instalação !
 
