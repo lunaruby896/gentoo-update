@@ -1,0 +1,27 @@
+#!/bin/bash
+echo "=== INICIANDO ATUALIZAÇÃO DO GENTOO ==="
+echo ""
+
+echo "-> Sincronizando o Portage..."
+emerge --sync
+
+echo ""
+echo "-> Atualizando os pacotes (@world)..."
+# O '&&' garante que o próximo comando só roda se este terminar sem erros
+emerge --update --deep --changed-use --getbinpkg @world && {
+    echo ""
+    echo "-> Limpando dependências órfãs..."
+    emerge --depclean
+
+    echo ""
+    echo "-> Verificando atualizações de arquivos de configuração..."
+    # dispatch-conf ou etc-update (ajuda a aplicar mudanças no /etc)
+    dispatch-conf
+
+    echo ""
+    echo "=== ATUALIZAÇÃO CONCLUÍDA COM SUCESSO! ==="
+} || {
+    echo ""
+    echo "=== ERRO: A atualização falhou. Verifique os logs acima. ==="
+    exit 1
+}
