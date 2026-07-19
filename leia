@@ -1,9 +1,0 @@
-1 pass
-use command: sudo mv ~/Downloads/gentoo-update-beta/gentoo-update /usr/local/bin
-
-2 pass 
-use command: sudo chmod +x /usr/local/bin/gentoo-update
-
-3 pass
-
-To use the command, enter the following in the terminal: sudo gentoo-update
