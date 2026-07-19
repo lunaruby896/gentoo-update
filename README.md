@@ -4,6 +4,7 @@
 > ❌ *gpg: Can't check signature: No public key*
 > ❌ *Binary package is not usable (verification failed)*
 
+!/bin/bash
 # 1. Entre como root no sistema
 sudo su -
 
