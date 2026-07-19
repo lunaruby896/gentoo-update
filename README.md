@@ -3,7 +3,9 @@ Solução de Erros: Chaves GnuPG e Permissões no Gentoo (Pacotes Binários)
 se caso ocorreu quando você colocou o comando: "sudo gentoo-update", ocorreu esses erros que estão em baixo
 
 ❌ *gpg: failed to create temporary file '/etc/portage/gnupg/...': Permission denied*
+
 ❌ *gpg: Can't check signature: No public key*
+
 ❌ *Binary package is not usable (verification failed)*
 
 1 Entre como root no sistema
