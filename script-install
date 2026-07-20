@@ -1,7 +1,9 @@
 #!/bin/bash
 
+sudo mv ~/Downloads/gentoo-update-main/gentoo-update /usr/local/bin
+
 sudo mv ~/gentoo-update-main/gentoo-update /usr/local/bin
 
 sudo chmod +x /usr/local/bin/gentoo-update
 
-
+clear
