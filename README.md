@@ -1,12 +1,14 @@
 como instalar ?
 
-use esse comando: chmod +x ~/gentoo-update-main/script-install
-
+use esse comando:
+```
+chmod +x ~/gentoo-update-main/script-install
+```
 você tem que executar o script de instalação !
-
+```
 ~/gentoo-update-main/script-install
-
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+```
+<hr>
 Solução de Erros: Chaves GnuPG e Permissões no Gentoo (Pacotes Binários)
 
 se caso ocorreu quando você colocou o comando: "sudo gentoo-update", ocorreu esses erros que estão em baixo
@@ -17,21 +19,19 @@ se caso ocorreu quando você colocou o comando: "sudo gentoo-update", ocorreu es
 
 ❌ *Binary package is not usable (verification failed)*
 
-
-```
 # 1 Entre como root no sistema
-
+```
 sudo su -
-
+```
 # 2 Remova a pasta de chaves antiga que está com problemas
-
+```
 rm -rf /etc/portage/gnupg
-
+```
 # 3 Peça para o Portage reconstruir a pasta com as permissões nativas perfeitas
-
+```
 emerge --config sys-apps/portage
-
+```
 # 4 Inicialize e baixe as chaves oficiais semanais da equipe do Gentoo
-
+```
 getuto
 ``` 
