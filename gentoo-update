@@ -7,7 +7,7 @@ emerge --sync
 
 echo "Atualizando os pacotes"
 emerge --update --deep --changed-use --getbinpkg @world && {
-    read -s "Limpar dependências antigas? (S/n)" $temp
+    read -p "Limpar dependências antigas? (S/n)" $temp
     if [[ $temp == "\n" ]] || [[ $temp == "s" ]] || [[ $temp == "S" ]]; then
         emerge --depclean
     fi
