@@ -18,7 +18,8 @@ se caso ocorreu quando você colocou o comando: "sudo gentoo-update", ocorreu es
 ❌ *Binary package is not usable (verification failed)*
 
 
-``# 1 Entre como root no sistema
+```
+# 1 Entre como root no sistema
 
 sudo su -
 
@@ -32,4 +33,5 @@ emerge --config sys-apps/portage
 
 # 4 Inicialize e baixe as chaves oficiais semanais da equipe do Gentoo
 
-getuto``
+getuto
+``` 
